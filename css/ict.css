@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner1 img{
+    width: 100%;
+    height: 500px; 
+    position: relative;
+}
+.overlay1{
+    background: rgba(88, 82, 82, 0.5);
+    width: 100%;
+    height: 500px;
+    margin-top: -505px;
+    position: absolute;
+}
+.leftheader{
+    position: absolute;
+    margin: -500px 0px 0px 20px;
+}
+.form1 select{
+    width: 180px;
+    padding: 1px;
+    font-weight: bold;
+    color: gray;
+}
+.poweredby{
+    margin: 8px 0px 0px 0px;
+    font-size: 15px;
+    color: rgb(221, 166, 64);
+}
+.support span{
+    font-weight: bold;
+}
+.inquiry{
+    margin: -47px 0px 0px 200px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+}
+.inquiries{
+    margin: 0px 0px 11px 0px;
+}
+.rightheader{
+    display: flex;
+    text-transform: uppercase;
+    margin: -500px 10px 0px 0px;
+    position: absolute;
+    right: 0;
+}
+.rightheader a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.right1{
+    margin: 10px 15px 0px 0px;
+    color: white;
+}
+.right2{
+    margin: 0px 15px 0px 0px;
+    background: rgb(221, 166, 64);
+    padding: 10px 25px;
+    border: 1px solid rgba(253, 153, 4, 0.466);
+}
+.right3{
+    margin: 0px 15px 0px 0px;
+    background: rgb(25, 168, 224);
+    padding: 10px 25px;
+    border: 1px solid dodgerblue;
+}
+.right4{
+    background: rgb(25, 168, 224);
+    padding: 10px 15px;
+    border: 1px solid dodgerblue;
+}
+.leftheader2{
+    background:white;
+    position: absolute;
+    margin: -455px 0px 0px 0px;
+    width: 100%;
+    height: 75px;
+    border: 1px solid rgb(80, 79, 79);
+   
+}
+.logo img{
+    width:200px;
+    margin: 5px 0px 5px 30px;
+}
+.leftheader2 a{
+    text-decoration: none;
+    color: rgb(16, 55, 87);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgb(170, 169, 169);
+    background: rgba(196, 203, 206, 0.486);
+    padding:27px 10px;
+    font-size: 16px; 
+    margin: 0px -10px 0px 5px; 
+      
+}
+.leftheader2 a:hover{
+    color: rgb(221, 166, 64);
+}
+.menu{
+    margin: -53px 0px 0px 500px;
+}
+.menu li{
+    display: inline-block;
+}
+.active{
+    background: rgb(221, 166, 64);
+}
+.active a:hover{
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    margin: 26px 0px 0px -570px ;
+    position: absolute;
+    
+    width: 1250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    color: black;
+    padding: 22px 5px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:rgb(233, 230, 230);
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+.customize{
+    width: 100%;
+    background: rgba(97, 90, 90, 0.219);
+    position: absolute;
+    margin-top: -250px;
+}
+.customize p{
+    color: white;
+    text-align:center; 
+    padding: 25px 0px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.customize2 h2{
+    margin: -90px 0px 0px 600px;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.floatingbox1{
+    margin: 30px 0px 0px 70px;
+    width: 100%;
+    display: flex;
+}
+.box1{
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+}
+.one{
+    margin: 0px 0px 0px 280px;
+}
+.one i{
+    background: rgb(221, 166, 64);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+.top h3{
+    color: rgb(92, 107, 116);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans'
+}
+.top p{
+    color: rgb(0, 162, 255);
+    text-transform: capitalize;
+    margin: 10px 0px 0px 0px;
+}
+.top h2{
+    color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top h1{
+    color: red;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin: 5px 0px 20px 0px;
+    font-family: 'Lucida Sans'
+}
+.details p{
+    color: #3b3b3b;
+    font-size: 17px;
+}
+.details strong{
+    color: #333030;
+    font-size: 18px;
+}
+.details h3{
+    color: rgb(124, 129, 131);;
+    font-size: 25px;
+    margin: 15px 0px 15px 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details li{
+    list-style: none;
+    margin: 25px 0px 0px 50px;
+}
+.details i{
+    margin: 0px 10px 0px 0px;
+}
+.accordion{
+    margin: 40px 0px 0px 10px;
+    /* overflow: hidden; */
+}
+.accordion li{
+    list-style: none;
+}
+.item{
+    /* overflow: hidden; */
+}
+.btn{
+    margin: 20px 0px 0px 0px;
+    background: rgb(16, 55, 87);
+    color: white;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.btn p{
+    color: white;
+}
+.btn i{
+    background: rgb(202, 132, 1);
+    color: white;
+    padding: 8px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn::before{
+    content:"";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgb(16, 55, 87);
+    left: 38px;
+    bottom:-7px ;
+    transform: rotate(45deg);
+}
+.-menu{
+    font-size: 20px;
+    width:460px;
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+    transition: height 1s;
+    max-height: 0;
+}
+.-menu li{
+    list-style: none;
+    margin: -30px 0px 10px 100px;
+    color: rgb(77, 63, 63);
+    position: relative; 
+    width: 300px;
+}
+.-menu  i{
+    margin: 20px 10px 0px 43px;
+    overflow: hidden;
+}
+.item:hover .-menu{
+    max-height: 300px;   
+}
+.-menu input[type="submit"]{
+    background: rgb(16, 55, 87);
+    color: rgb(214, 171, 91);
+    padding: 10px 30px;
+    border: 4px solid rgb(199, 190, 173);
+    border-radius: 30px;
+    margin: 50px 0px 0px -50px;
+    /* max-height: 50; */ 
+}
+.-menu input[type="submit"]:hover{
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* .-menu li:before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background:  rgb(16, 55, 87);
+    left: -45px;
+    top: 1px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.-menu li:hover:before{
+    opacity: 1;
+} */
+.below{
+    margin: 20px 0px 0px -5px;
+}
+.below i{
+    background: rgb(202, 132, 1);
+    padding: 20px;
+    color: white;
+    border-radius: 30px; 
+    margin-bottom: 20px;
+}
+/* issues with border radius */
+.below span{
+    color: rgb(2, 99, 138);
+    font-size: 20px;
+    font-family: 'Trebuchet MS'
+}
+ input[type="submit"]{
+    background: rgb(16, 55, 87);
+    color: rgb(214, 171, 91);
+    padding: 10px 30px;
+    border: none;
+    border: 4px solid rgb(199, 190, 173);
+    border-radius: 30px;
+}
+input[type="submit"]:hover{
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.aside{
+    width: 300px;
+}
+.aside h6{
+    font-size: 20px;
+    color: rgb(36, 77, 77);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 10px;
+    padding: 0px 0px 15px 0px ;
+    border-bottom: 1px solid rgb(36, 77, 77);
+}
+.aside img{
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 0px 10px;
+}
+.aside li{
+    list-style: none;
+    margin: 5px 0px 30px 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #4d4d4d;
+    padding: 0px 0px 20px 0px
+}
+.aside i{
+    color: rgb(2, 99, 138);
+    padding: 0px 30px 0px 0px;
+}
+.floatingbox2{
+    background: rgb(16, 55, 87);
+    display: flex;
+    margin: 80px 0px 0px 0px;
+    width: 100%;
+    padding: 70px 0px 70px 20px;
+}
+.box2{
+    width: 22%;
+    margin: 0px 0px 0px 40px;
+}
+.box2 p{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2 i{
+    color: white;
+}
+.heading{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif ;
+    background: rgb(88, 131, 192);
+    padding: 0px 0px 0px 10px;
+    width: 270px;
+    color: white;
+    font-size: 13px;
+}
+.heading .fa{
+    background: rgb(197, 165, 85);
+    padding: 8px 6px;
+    font-size: 10px; 
+    margin: 0px 0px 0px 73.73px;
+}
+#heading1 .fa{
+    margin: 0px 0px 0px 108px;
+}
+#heading3 .fa{
+    margin: 0px 0px 0px 136.8px;
+}
+#box2 p{
+    line-height: 25px; 
+    font-family: Arial, Helvetica, sans-serif ; 
+}
+.box2-2{
+    padding: 25px 0px 0px 0px;
+    display: flex;
+}
+.box2-2-1 .fa{
+    background: rgb(197, 165, 85);
+    padding: 20px;
+    border-radius: 45px;
+}
+.box2-2-2 p{
+    margin: 5px 0px 0px 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.box2-2-2 a{
+    text-decoration: none;
+    color: rgb(197, 165, 85);
+    text-transform: uppercase;
+}
+.box2-2b{
+    background: rgb(1, 1, 26);
+    margin: 25px 0px 0px 50px;
+    padding:10px;
+    line-height: 25px;
+    width: 200px;
+    
+}
+.box2-2b a{
+    text-decoration: none;
+    color: rgb(197, 165, 85);
+}  
+.floatingbox3{
+    display: flex;
+    padding: 80px 0px 80px 100px;
+    width: 100%;
+}
+.box3{
+    padding: 0px 120px 0px 0px;
+}
+.box3 h5{
+    text-transform: uppercase;
+    color: rgb(197, 165, 85);
+    font-size: 25px;
+}
+.box3 h6{
+    color: gray;
+    font-size: 15px;
+    margin: 10px 0px 20px 0px;
+}
+.box3 ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px; 
+    margin: 0px -2px 0px 0px;; 
+}
+.box3 a:hover{
+   background: white;
+}
+.box2-2b i{
+    color: rgb(22, 83, 163)
+}
+.green a:hover{
+    color: green;
+}
+.blue a:hover{
+    color: rgb(0, 102, 255);
+}
+.skyblue a:hover{
+    color: rgb(1, 101, 244)
+}
+.red a:hover{
+    color: red;
+}
+.orange a:hover{
+    color: rgb(128, 0, 75);
+}
+.box3 a{
+    background: rgb(16, 55, 87);
+    padding: 10px; 
+    text-decoration: none;
+    color: white;
+}
+.box3 input[type="email"]{
+    width: 350px;
+    padding: 10px;
+    background: rgb(16, 55, 87);
+    border: none;
+    color: rgb(221, 166, 64);
+}
+.box3 input[type="submit"]{
+    width: 50px;
+    padding: 11px;
+    background: rgb(16, 55, 87);
+    border: none;
+    color: white;
+    margin: 0px 0px 0px -5px;
+    background: rgb(197, 165, 85);
+}
+footer{
+    background: rgb(16, 55, 87);
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footerlist  li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0px 10px 0px 5px;
+    margin: 10px 0px 0px 0px
+}
+.footerlist li:hover{
+    color: rgb(197, 165, 85);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    padding: 30px 60px;
+}
+.footerp{
+    padding: 10px 120px 0px 0px;
+}
+.footerfixed{
+    background: rgb(197, 165, 85);
+    margin: -10px 0px -10px 50px;
+    padding: 40px 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

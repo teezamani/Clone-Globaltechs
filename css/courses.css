@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner1 img{
+    width: 100%;
+    height: 500px; 
+    position: relative;
+}
+.overlay1{
+    background: rgba(88, 82, 82, 0.5);
+    width: 100%;
+    height: 500px;
+    margin-top: -505px;
+    position: absolute;
+}
+.leftheader{
+    position: absolute;
+    margin: -500px 0px 0px 20px;
+}
+.form1 select{
+    width: 180px;
+    padding: 1px;
+    font-weight: bold;
+    color: gray;
+}
+.poweredby{
+    margin: 8px 0px 0px 0px;
+    font-size: 15px;
+    color: rgb(221, 166, 64);
+}
+.support span{
+    font-weight: bold;
+}
+.inquiry{
+    margin: -47px 0px 0px 200px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+}
+.inquiries{
+    margin: 0px 0px 11px 0px;
+}
+.rightheader{
+    display: flex;
+    text-transform: uppercase;
+    margin: -500px 10px 0px 0px;
+    position: absolute;
+    right: 0;
+}
+.rightheader a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.right1{
+    margin: 10px 15px 0px 0px;
+    color: white;
+}
+.right2{
+    margin: 0px 15px 0px 0px;
+    background: rgb(221, 166, 64);
+    padding: 10px 25px;
+    border: 1px solid rgba(253, 153, 4, 0.466);
+}
+.right3{
+    margin: 0px 15px 0px 0px;
+    background: rgb(25, 168, 224);
+    padding: 10px 25px;
+    border: 1px solid dodgerblue;
+}
+.right4{
+    background: rgb(25, 168, 224);
+    padding: 10px 15px;
+    border: 1px solid dodgerblue;
+}
+.leftheader2{
+    background:white;
+    position: absolute;
+    margin: -455px 0px 0px 0px;
+    width: 100%;
+    height: 75px;
+    border: 1px solid rgb(80, 79, 79);
+   
+}
+.logo img{
+    width:200px;
+    margin: 5px 0px 5px 30px;
+}
+.leftheader2 a{
+    text-decoration: none;
+    color: rgb(16, 55, 87);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgb(170, 169, 169);
+    background: rgba(196, 203, 206, 0.486);
+    padding:27px 10px;
+    font-size: 16px; 
+    margin: 0px -10px 0px 5px; 
+      
+}
+.leftheader2 a:hover{
+    color: rgb(221, 166, 64);
+}
+.menu{
+    margin: -53px 0px 0px 500px;
+}
+.menu li{
+    display: inline-block;
+}
+.active{
+    background: rgb(221, 166, 64);
+}
+.active a:hover{
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    margin: 26px 0px 0px -570px ;
+    position: absolute;
+    
+    width: 1250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    color: black;
+    padding: 22px 5px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:rgb(233, 230, 230);
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+.customize{
+    width: 100%;
+    background: rgba(97, 90, 90, 0.219);
+    position: absolute;
+    margin-top: -250px;
+}
+.customize p{
+    color: white;
+    text-align:center; 
+    padding: 25px 0px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.floatingbox1{
+    width: 78%;
+    display: flex;
+    margin: 50px 0px 0px 150px;
+}
+.box1{
+    padding: 0px 20px ;
+}
+.box1 p{
+    color:green;
+    font-weight: bold;
+}
+.one1 strong{
+    text-transform: capitalize;
+    background: rgb(22, 83, 163);
+    font-size: 20px;
+    color: white;
+    padding: 10px 109px 10px 10px;
+    border-radius: 5px 0px 0px 0px;    
+}
+.one .fa{
+    background: rgb(197, 165, 85);
+    padding: 11px 5px 11px 5px;
+    font-size: 20px;
+    border-radius: 0px 5px 0px 0px;
+}
+.one2{
+    background: rgb(233, 230, 230);
+    margin: 0px 0px 0px 0px;
+    padding: 4px 0px 4px 0px; 
+     
+}
+.one2 p{
+    text-align: center;
+    font-size: 18px;
+    color: green;
+}
+.two{
+    background: rgb(233, 230, 230);
+}
+.two img{
+    padding: 20px 0px 35px 20px;
+    width:310px;
+}
+.one2 b{
+    color: red;
+    font-size: 20px;
+    padding: 0px 10px 0px 0px;
+}
+.three1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background: rgb(145, 143, 143);
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    border-radius: 0px 0px 0px 0px; 
+}
+.three a:hover{
+    background: rgb(16, 55, 87);
+}
+.three1 strong{
+    font-size: 15px;
+}
+.three .fa{
+    padding: 11px 5px 11px 5px;
+    font-size: 20px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 74.5px;
+    color: white;
+}
+.floatingbox2{
+    background: rgb(16, 55, 87);
+    display: flex;
+    margin: 80px 0px 0px 0px;
+    width: 100%;
+    padding: 70px 0px 70px 20px;
+}
+.box2{
+    width: 22%;
+    margin: 0px 0px 0px 40px;
+}
+.box2 p{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2 i{
+    color: white;
+}
+.heading{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif ;
+    background: rgb(88, 131, 192);
+    padding: 0px 0px 0px 10px;
+    width: 270px;
+    color: white;
+    font-size: 13px;
+}
+.heading .fa{
+    background: rgb(197, 165, 85);
+    padding: 8px 6px;
+    font-size: 10px; 
+    margin: 0px 0px 0px 73.73px;
+}
+#heading1 .fa{
+    margin: 0px 0px 0px 108px;
+}
+#heading3 .fa{
+    margin: 0px 0px 0px 136.8px;
+}
+#box2 p{
+    line-height: 25px; 
+    font-family: Arial, Helvetica, sans-serif ; 
+}
+.box2-2{
+    padding: 25px 0px 0px 0px;
+    display: flex;
+}
+.box2-2-1 .fa{
+    background: rgb(197, 165, 85);
+    padding: 20px;
+    border-radius: 45px;
+}
+.box2-2-2 p{
+    margin: 5px 0px 0px 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.box2-2-2 a{
+    text-decoration: none;
+    color: rgb(197, 165, 85);
+    text-transform: uppercase;
+}
+.box2-2b{
+    background: rgb(1, 1, 26);
+    margin: 25px 0px 0px 50px;
+    padding:10px;
+    line-height: 25px;
+    width: 200px;
+    
+}
+.box2-2b a{
+    text-decoration: none;
+    color: rgb(197, 165, 85);
+}  
+.floatingbox3{
+    display: flex;
+    padding: 80px 0px 80px 100px;
+    width: 100%;
+}
+.box3{
+    padding: 0px 120px 0px 0px;
+}
+.box3 h5{
+    text-transform: uppercase;
+    color: rgb(197, 165, 85);
+    font-size: 25px;
+}
+.box3 h6{
+    color: gray;
+    font-size: 15px;
+    margin: 10px 0px 20px 0px;
+}
+.box3 ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px; 
+    margin: 0px -2px 0px 0px;; 
+}
+.box3 a:hover{
+   background: white;
+}
+.box2-2b i{
+    color: rgb(22, 83, 163)
+}
+.green a:hover{
+    color: green;
+}
+.blue a:hover{
+    color: rgb(0, 102, 255);
+}
+.skyblue a:hover{
+    color: rgb(1, 101, 244)
+}
+.red a:hover{
+    color: red;
+}
+.orange a:hover{
+    color: rgb(128, 0, 75);
+}
+.box3 a{
+    background: rgb(16, 55, 87);
+    padding: 10px; 
+    text-decoration: none;
+    color: white;
+}
+.box3 input[type="email"]{
+    width: 350px;
+    padding: 10px;
+    background: rgb(16, 55, 87);
+    border: none;
+    color: rgb(221, 166, 64);
+}
+.box3 input[type="submit"]{
+    width: 50px;
+    padding: 11px;
+    background: rgb(16, 55, 87);
+    border: none;
+    color: white;
+    margin: 0px 0px 0px -5px;
+    background: rgb(197, 165, 85);
+}
+footer{
+    background: rgb(16, 55, 87);
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footerlist  li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0px 10px 0px 5px;
+    margin: 10px 0px 0px 0px
+}
+.footerlist li:hover{
+    color: rgb(197, 165, 85);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    padding: 30px 60px;
+}
+.footerp{
+    padding: 10px 120px 0px 0px;
+}
+.footerfixed{
+    background: rgb(197, 165, 85);
+    margin: -10px 0px -10px 50px;
+    padding: 40px 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+

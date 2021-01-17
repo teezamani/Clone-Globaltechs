@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <style>
+     .rightheader{
+    display: flex;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 0px;
+    /* position: absolute; */
+    right: 0;
+}
+.rightheader a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.right1{
+    margin: 10px 15px 0px 0px;
+    color: white;
+}
+.right2{
+    margin: 0px 15px 0px 0px;
+    background: rgb(221, 166, 64);
+    padding: 10px 25px;
+    border: 1px solid rgba(253, 153, 4, 0.466);
+}
+.right3{
+    margin: 0px 15px 0px 0px;
+    background: rgb(25, 168, 224);
+    padding: 10px 25px;
+    border: 1px solid dodgerblue;
+}
+.right4{
+    background: rgb(25, 168, 224);
+    padding: 10px 15px;
+    border: 1px solid dodgerblue;
+} 
+.modal{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0); 
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    background: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    border: 1px solid #888;
+}
+.close{
+    position: absolute;
+    top: 0; 
+    right: 14px;
+    font-weight: bold;
+    font-size: 42px;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+.close:hover,
+.close:focus{
+    color: red;
+    cursor: pointer;
+}
+.modal-content label{
+    text-transform: capitalize;
+    margin: 0px 0px 0px -200px;
+    color: black;
+    font-weight: bold;
+}
+.modal-content input{
+    width:90%;
+    display: block;
+    margin: 10px auto;
+    text-transform: capitalize;
+    color: #4d4d4d;
+    padding: 5px 10px;
+}
+.modal-content input[type="submit"]{
+    width: 280px;
+    background: #48d1cc;
+    cursor: pointer;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+    margin: 18px auto;
+}
+.modal-content input[type="checkbox"]{
+    margin: 0px 0px 20px -120px;
+}
+.checkb span{
+    margin: -34px 0px 0px -120px;
+    position: absolute;
+    text-transform: capitalize;
+}
+.container{
+    background: #f1f1f1;
+    width: 320px;
+    margin: 5px 0px 0px -20px;
+    height: 70px;
+}
+.contain1{
+    background: #4682b4;
+    margin: 20px 0px 0px 20px;
+    padding: 0px 0px 3px 0px;
+    width: 80px;
+    height: 35px;
+    font-size: 13px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.contain2 {
+    text-transform: capitalize;
+    float: right;
+    font-size: 18px;
+    margin: 30px 10px 0px 0px;
+}
+.contain2 span{
+    color: black;
+}
+.contain2 a{
+    color: rgb(146, 130, 238);
+    text-decoration: underline;
+}
+.animate{
+    animation: animatezoom 0.6s;
+    -webkit-animation: animatezoom 0.6s;
+}
+@keyframes animatezoom{
+    from{transform: scale(0)}
+    to{transform: scale(1)}
+}
+@-webkit-keyframes animatezoom{
+    from{transform: scale(0)}
+    to{transform: scale(1)}
+}
+
+    </style>
+</head>
+<body>
+    <div class="rightheader">
+        <div class="right1"><p>get started today!</p></div>
+        <a href="#register"><div class="right2">register</div></a>
+        <a href="#id01"><div class="right3" onclick="document.getElementById('id01') .style.display='block'" style="width:auto;">login</div></a>
+        <!--  Modal login form -->
+        <div id="id01" class="modal">
+            <form class="modal-content animate"action="action_page.php">
+                    <div class="close" onclick="document.getElementById ('id01').style.display='none'"> +</div> 
+                        <div><i class="fa fa-user-circle fa-6x"></i> </div>
+                             <label for="">username</label> 
+                             <input type="text" name="name" placeholder="enter username"> 
+                             <label for="">password</label>
+                             <input type="text" name="password" placeholder="enter password"> 
+                             <input type="submit" value="login">
+                             <div class="checkb"><input type="checkbox" checked="checked"> <span>remember me</span></div>
+                         <div class="container">
+                             <div class="contain1" onclick="document.getElementById ('id01').style.display='none'">
+                                 <p>cancel</p>
+                             </div>
+                             <div class="contain2">
+                                 <span>forgot <a href="#">password?</a></span>
+                             </div>
+                         </div>
+            </form>
+        </div>
+        <div class="right4"><a href=""><i class="fa fa-search"></i></a></div>
+    </div>
+</body>
+</html>
